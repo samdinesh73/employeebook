@@ -3,6 +3,8 @@ import { useEffect } from "react";
 
 const pictures = [
   //  "DSC00983",
+  "DSC01011",
+  "DSC01011",
  "DSC00933",
  "DSC00933",
   "DSC00966",
@@ -10,8 +12,7 @@ const pictures = [
   // "DSC00680",
  
   //  "DSC00933",
-  "DSC01011",
-  "DSC01011",
+  
   "DSC00680",
   "DSC00680",
   "DSC00680",
@@ -60,7 +61,7 @@ pages.push({
 
 export const UI = () => {
   const [page, setPage] = useAtom(pageAtom);
-  const emp =["","Dinesh","Mahesh","Kannan","Prasanna","Prince","Abishek","Srikanth"];
+  const emp =["","Kannan","Mahesh","Dinesh","Prasanna","Prince","Abishek","Srikanth"];
   const inc =0;
   useEffect(() => {
     const audio = new Audio("/audios/page-flip-01a.mp3");
